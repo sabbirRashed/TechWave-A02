@@ -28,16 +28,18 @@
 .btn-primary {
     font-size: 1rem;
     font-weight: 600;
-    padding: 12px 16px;
+    padding: 12.5px 20px;
     border: none;
-    border-radius: 20px;
-    background-image: linear-gradient(to top right, #f7e93f, #FB09B4, #9100F8);
+    border-radius: 10000px;
+    background: linear-gradient(to top right, #f7e93f, #FB09B4, #9100F8);
     color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
 /* ---------navbar style--------- */
 .navbar {
-    border: 1px solid green;
     max-width: 1200px;
     padding: 16px 0px;
     justify-content: space-between;
@@ -76,6 +78,78 @@
     font-size: 1.5rem;
 }
 
+/* --------banner related style------------ */
+.banner {
+    padding: 100px 0;
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid #412567;
+
+}
+
+.banner-img-container {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(../assets/hero-circle.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.banner-img-container>img {
+    width: 30%;
+}
+
+.banner-img-container>div {
+    padding: 8px 16px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1A0B2E;
+    background-color: #00FF88;
+    box-shadow: 0px 3px 27px #00ff8880;
+    border-radius: 1000px;
+    position: absolute;
+    top: 5%;
+    right: 6%;
+}
+
+.banner-content {
+    text-align: center;
+    margin-top: 40px
+}
+
+.banner-title {
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: white;
+}
+
+.banner-info {
+    font-size: 1rem;
+    color: white;
+    margin-top: 8px;
+}
+
+.btn-banner-container {
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#btn-banner-2 {
+    background: none;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+
+}
+
 /* --------mobile devices responsive---------- */
 @media screen and (max-width: 576px) {
     .navbar {
@@ -94,4 +168,29 @@
     .logo {
         max-width: 137px;
     }
+
+    /* ---------banner responsive--------- */
+    .banner {
+        padding: 40px 0;
+    }
+
+    .banner-img-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .banner-img-container>div {
+        font-size: 1rem;
+        right: -5%;
+    }
+
+    .banner-content {
+        margin-top: 24px;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+
 }
