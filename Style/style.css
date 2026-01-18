@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* -------shared style--------- */
+.margin-auto {
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.bg-nevy-bleu{
+    background-color: #1a0b2e;
+}
+
+.btn-primary{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to top right, #f7e93f, #FB09B4,  #9100F8);
+    color: white;
+}
+
+/* ---------navbar style--------- */
+.navbar {
+    border: 1px solid green;
+    max-width: 1200px;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menue-bar {
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.menue-list {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+.menue-list>a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.hambarger-icon {
+    display: none;
+}
