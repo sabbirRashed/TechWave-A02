@@ -348,7 +348,7 @@ hr {
     border-radius: 40px;
 }
 
-.host-img-container{
+.host-img-container {
     width: 45%;
 }
 
@@ -356,20 +356,18 @@ hr {
     width: 100%;
 }
 
-.meet-host-content {}
-
 .host-name {
     font-size: 2rem;
     font-weight: 700;
 }
 
-.host-social-acount-container{
+.host-social-acount-container {
     align-items: center;
     gap: 8px;
     margin-top: 16px;
 }
 
-.host-social-acount-container>div{
+.host-social-acount-container>div {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -377,6 +375,10 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.host-social-acount-container img{
+    display: block;
 }
 
 
@@ -502,6 +504,27 @@ hr {
 
     .featured-card-info {
         margin-top: 8px;
+    }
+
+    /* --------meet host section responsive--------- */
+    .meet-host {
+        padding: 0px 20px 40px;
+    }
+
+    .host-card {
+        flex-direction: column;
+        margin-top: 24px;
+        gap: 16px;
+        padding: 24px;
+        border-radius: 24px;
+    }
+
+    .meet-host-content {
+        text-align: center;
+    }
+
+    .host-social-acount-container {
+        justify-content: center;
     }
 
 
