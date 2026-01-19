@@ -271,7 +271,8 @@ hr {
     margin-top: 16px;
 }
 
-.why-choose-card-info {
+.why-choose-card-info,
+.host-info {
     margin-top: 16px;
     opacity: 0.6;
 }
@@ -322,6 +323,60 @@ hr {
     justify-content: flex-start;
     align-items: center;
     gap: 6px;
+}
+
+.featured-episode-duration>p {
+    color: #00FF88;
+}
+
+/* ---------meet host section related style--------- */
+.meet-host {
+    padding: 0px 0px 120px;
+    background-color: #1a0b2e;
+}
+
+.meet-host-container {
+    max-width: 1200px;
+}
+
+.host-card {
+    margin-top: 40px;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    background-color: #35116566;
+    border-radius: 40px;
+}
+
+.host-img-container{
+    width: 45%;
+}
+
+.host-img-container>img {
+    width: 100%;
+}
+
+.meet-host-content {}
+
+.host-name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.host-social-acount-container{
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.host-social-acount-container>div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #533c72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -433,7 +488,7 @@ hr {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .iframe-container>iframe{
+    .iframe-container>iframe {
         height: 225px;
     }
 
