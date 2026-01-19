@@ -36,6 +36,7 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 }
 
 .text-white {
@@ -83,7 +84,10 @@
 .hambarger-icon {
     display: none;
     font-size: 1.5rem;
+     cursor: pointer;
+
 }
+
 
 /* --------banner related style------------ */
 .banner {
