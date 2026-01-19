@@ -480,7 +480,8 @@ footer {
 
 
     .about-podcast-section,
-    .why-choose {
+    .why-choose,
+    footer {
         padding: 40px 20px;
     }
 
@@ -572,6 +573,32 @@ footer {
 
     .host-social-acount-container {
         justify-content: center;
+    }
+
+    .footer-logo {
+        font-size: 3.5rem;
+    }
+
+    .social-link-container {
+        margin-top: 24px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    #spotify{
+        justify-self: center;
+    }
+
+    #youtube{
+        justify-self: end;
+    }
+
+    #twitter{
+        justify-self: center;
+    }
+
+    .copyright-info {
+        margin-top: 24px;
     }
 
 
