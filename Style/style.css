@@ -46,6 +46,7 @@
 .section-title {
     font-size: 3rem;
     font-weight: 700;
+    text-align: center;
 }
 
 /* ---------navbar style--------- */
@@ -84,7 +85,7 @@
 .hambarger-icon {
     display: none;
     font-size: 1.5rem;
-     cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -206,10 +207,78 @@ hr {
     color: #00FF88;
 }
 
+#rating-star {
+    font-size: 2.5rem;
+}
+
 .statics-card>p {
     margin-top: 16px;
     text-transform: uppercase;
 }
+
+/* ----------why-choose section related style-------------- */
+.why-choose {
+    padding: 120px 0px;
+    background-color: #230e3d;
+}
+
+.why-choose-container {
+    max-width: 1200px;
+}
+
+#premium-quality {
+    grid-area: pre;
+    align-items: center;
+}
+
+#mobile-friendly {
+    grid-area: mob;
+}
+
+#global-community {
+    grid-area: glo;
+}
+
+#interview {
+    grid-area: int;
+}
+
+#resource {
+    grid-area: res;
+}
+
+.why-choose-card-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-template-areas:
+        'pre    mob    mob'
+        'pre    glo    glo'
+        'int    int    res'
+    ;
+}
+
+.why-choose-card {
+    padding: 40px 40px;
+    background-color: #35116566;
+    border-radius: 40px;
+}
+
+.why-choose-card-img-container {}
+
+.why-choose-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.why-choose-card-info {
+    margin-top: 16px;
+    opacity: 0.6;
+}
+
+
 
 /* --------mobile devices responsive---------- */
 @media screen and (max-width: 576px) {
