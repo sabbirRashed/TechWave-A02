@@ -265,8 +265,6 @@ hr {
     border-radius: 40px;
 }
 
-.why-choose-card-img-container {}
-
 .why-choose-card-title {
     font-size: 1.5rem;
     font-weight: 700;
@@ -276,6 +274,54 @@ hr {
 .why-choose-card-info {
     margin-top: 16px;
     opacity: 0.6;
+}
+
+/* ---------featured episodes related style------------ */
+.featured {
+    padding: 120px 0px;
+    background-color: #1a0b2e;
+}
+
+.featured-container {
+    max-width: 1200px;
+}
+
+.featured-card-container {
+    margin-top: 40px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+.featured-card {
+    background-color: #250d44;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.iframe-container>iframe {
+    width: 100%;
+}
+
+.featured-card-content {
+    padding: 24px;
+}
+
+.featured-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.featured-card-info {
+    margin-top: 12px;
+    opacity: 0.6;
+}
+
+.featured-episode-duration {
+    margin-top: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
 }
 
 
@@ -301,7 +347,7 @@ hr {
 
     /* ---------banner responsive--------- */
     .banner {
-        padding: 40px 0;
+        padding: 40px 20px;
     }
 
     .banner-img-container {
@@ -318,7 +364,8 @@ hr {
         margin-top: 24px;
     }
 
-    .banner-title {
+    .banner-title,
+    .statics-card>h4 {
         font-size: 2.5rem;
     }
 
@@ -351,10 +398,6 @@ hr {
         gap: 40px;
     }
 
-    .statics-card>h4 {
-        font-size: 2.5rem;
-    }
-
     /* -------why choose responsive----------- */
     .why-choose-card-container {
         grid-template-columns: repeat(1, 1fr);
@@ -375,6 +418,35 @@ hr {
 
     .why-choose-card-title {
         font-size: 1.375rem;
+    }
+
+    /* ---------Featured episode responsive---------- */
+    .featured {
+
+        padding: 40px 20px 60px;
+        background-color: #1a0b2e;
+    }
+
+    .featured-card-container {
+        margin-top: 24px;
+        gap: 16px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .iframe-container>iframe{
+        height: 225px;
+    }
+
+    .featured-card-content {
+        padding: 16px;
+    }
+
+    .featured-card-title {
+        font-size: 1.25rem;
+    }
+
+    .featured-card-info {
+        margin-top: 8px;
     }
 
 
