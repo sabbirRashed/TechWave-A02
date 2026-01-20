@@ -513,6 +513,11 @@ footer {
         gap: 40px;
     }
 
+    .statics-card>p {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
     /* -------why choose responsive----------- */
     .why-choose-card-container {
         grid-template-columns: repeat(1, 1fr);
