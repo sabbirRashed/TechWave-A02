@@ -97,7 +97,7 @@
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     border-top: 1px solid #412567;
 
 }
@@ -388,7 +388,7 @@ footer {
     background-image: url(../assets/footer-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     text-align: center;
 }
 
@@ -574,7 +574,10 @@ footer {
     .host-social-acount-container {
         justify-content: center;
     }
-
+/* ----------footer----------- */
+footer{
+    background-image: url(../assets/footer-bg-sm.png);
+}
     .footer-logo {
         font-size: 3.5rem;
     }
