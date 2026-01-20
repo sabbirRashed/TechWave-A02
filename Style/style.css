@@ -470,7 +470,8 @@ footer {
     }
 
     .banner-img-container>div {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        padding: 8px 12px;
         right: -5%;
     }
 
@@ -605,8 +606,13 @@ footer {
         gap: 16px;
     }
 
-    .social-link-container{
+    .social-link-container {
         flex-direction: column;
+    }
+
+    .first-row,
+    .second-row {
+        gap: 24px;
     }
 
 
