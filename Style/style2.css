@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-img-container{
+    animation: soundWave 2s infinite ease-in;
+}
+
+@keyframes soundWave {
+    from{
+        box-shadow: 0px 0px 20px #FB09B4;
+        
+    }
+
+    to{
+        box-shadow: 0px 0px 80px #FB09B4;
+        
+    }
+    
+}
