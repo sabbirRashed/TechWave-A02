@@ -105,7 +105,7 @@
 .banner-img-container {
     width: 350px;
     height: 350px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-image: url(../assets/hero-circle.png);
     background-position: center;
     background-size: cover;
@@ -405,9 +405,13 @@ footer {
 
 .social-link-container {
     margin-top: 32px;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
     justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.first-row,
+.second-row {
     gap: 40px;
 }
 
@@ -449,6 +453,11 @@ footer {
         max-width: 137px;
     }
 
+    .btn-primary {
+        font-size: 0.8rem;
+        padding: 12px 16px;
+    }
+
     /* ---------banner responsive--------- */
     .banner {
         padding: 40px 20px;
@@ -470,7 +479,7 @@ footer {
 
     .banner-title,
     .statics-card>h4 {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
     /* --------about-podcast responsive---------- */
@@ -574,12 +583,14 @@ footer {
     .host-social-acount-container {
         justify-content: center;
     }
-/* ----------footer----------- */
-footer{
-    background-image: url(../assets/footer-bg-sm.png);
-}
+
+    /* ----------footer----------- */
+    footer {
+        background-image: url(../assets/footer-bg.png);
+    }
+
     .footer-logo {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     .social-link-container {
@@ -588,20 +599,8 @@ footer{
         gap: 16px;
     }
 
-    #spotify{
-        justify-self: center;
-    }
-
-    #youtube{
-        justify-self: end;
-    }
-
-    #twitter{
-        justify-self: center;
-    }
-
-    .copyright-info {
-        margin-top: 24px;
+    .social-link-container{
+        flex-direction: column;
     }
 
 
